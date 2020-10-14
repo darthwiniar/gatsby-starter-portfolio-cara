@@ -1,5 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
+/** @jsx jsx */
+import { Box, Flex, Link, useColorMode, jsx } from "theme-ui"
 import Divider from "../elements/divider"
 import Inner from "../elements/inner"
 import Content from "../elements/content"
@@ -7,9 +9,6 @@ import SVG from "./svg"
 import { UpDown, UpDownWide } from "../styles/animations"
 // @ts-ignore
 import Intro from "../sections/intro"
-/** @jsx jsx */
-import { Box, Flex, Link, useColorMode, jsx } from "theme-ui"
-
 const Footer = () => {
   const [colorMode, setColorMode] = useColorMode()
   const isDark = colorMode === `dark`
